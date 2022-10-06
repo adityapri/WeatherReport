@@ -1,8 +1,6 @@
 # WeatherReport
 Created with CodeSandbox
 
-#Weather Report
-
 Prerequisites : HTML,CSS,JavaScript
 Framework : BootStrap(for Carousel effect), Material UI(Specifically for Material Icons)
 Library : React
