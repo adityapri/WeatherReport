@@ -1,0 +1,83 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+/* .col-6{
+  display: flex;
+  justify-content: space-between;
+} */
+
+.weather_details_wrapper {
+  border: 1px solid black;
+  background-color: black;
+
+  /* border-radius: 50%; */
+  padding: 10%;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.weather_details_heading {
+  margin: 2rem 0;
+}
+
+.card-text {
+  display: flex;
+  justify-content: center;
+}
+.high,
+.low {
+  margin: 10px;
+}
+
+.vl {
+  border: 1px solid greenyellow;
+  height: 60px;
+}
+
+.card-img-top {
+  width: 10rem;
+  height: 10rem;
+  margin: 0 44%;
+}
+
+.fa-solid {
+  margin: 2.5rem 2rem;
+}
+
+.displayWeather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/%D0%A1%D0%B2%D0%B5%D1%82_%D0%BE%D1%82_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D0%B8_-_panoramio.jpg/640px-%D0%A1%D0%B2%D0%B5%D1%82_%D0%BE%D1%82_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D0%B8_-_panoramio.jpg");
+
+  height: 10rem;
+}
+
+.displayWeather > .main-card {
+  color: white;
+}
+
+.forcast_wrapper {
+  margin-top: 2%;
+}
+
+/* .astronomy{
+  position: relative;
+  top: -1rem;
+  left: 28rem;
+} */
+
+/* .circle_img{
+  position: absolute;
+  top: 32rem;
+  right: 10rem;
+} */
+
+.Time {
+  position: absolute;
+  top: 35rem;
+  left: 59rem;
+}
